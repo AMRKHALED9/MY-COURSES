@@ -1,0 +1,190 @@
+body{
+    background-color:black;
+    color: white;
+}
+
+.Form{
+
+    width: 35%;
+    height:  30em;
+
+    margin-left: 32.5%;
+    margin-top:7%;
+
+    border-radius: 0.3cm;
+
+    background-color: rgb(155, 154, 154)
+
+}
+.input-name{
+
+    
+    margin-left: 22.5% ;
+    margin-top: 35px ;
+    padding-left: 0.5cm;
+
+    width: 50%;
+    height: 4em;
+
+    border-radius: 0.3em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-name::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-name:focus{
+    outline: none;
+}
+
+
+.input-email{
+
+    
+    margin-left: 22.5% ;
+    margin-top: 35px ;
+    padding-left: 0.5cm;
+
+    width: 50%;
+    height: 4em;
+
+    border-radius: 0.3em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-email::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-email:focus{
+    outline: none;
+}
+
+
+.input-pass{
+
+    
+    margin-left: 22.5% ;
+    margin-top: 35px ;
+    padding-left: 0.5cm;
+
+    width: 50%;
+    height: 4em;
+
+    border-radius: 0.3em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-pass::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-pass:focus{
+    outline: none;
+}
+
+.input-sub{
+
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+
+    margin-left: 40% ;
+    margin-top: 35px ;
+
+    width: 20%;
+    height: 2.7em;
+
+    border-radius: 0.2em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-sub::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-sub:hover{
+    background-color: black;
+    width: 19.5%;
+    margin-left: 190px;
+}
+@media  (max-width: 450px){
+    .Form{
+        width: 95%;
+        height:28em ;
+        margin-top: 25%;
+        margin-left: 3%;
+
+
+    }
+    .input-name{
+        width: 80%;
+        height: 45px;
+        margin-left: 6.5%;
+    }
+    .input-email{
+        width: 80%;
+        height: 45px;
+        margin-left: 6.5%;
+    }
+    .input-pass{
+        width: 80%;
+        height: 45px;
+        margin-left: 6.5%;
+    }
+    .input-sub{
+        width: 30%;
+        height: 2.5em;
+        margin-left: 35%;
+    }
+    .input-sub:hover{
+        width: 29.5%;
+        margin-left:35.5% ;
+    }
+}
+
+@media  (max-width: 950px) and (min-width: 450px){
+        .Form{
+            width: 90%;
+            height:38em ;
+            margin-top: 25%;
+            margin-left: 5%;
+    
+    
+        }
+        .input-name{
+            width: 80%;
+            height: 55px;
+            margin-left: 6.5%;
+            margin-top: 3em;
+        }
+        .input-email{
+            width: 80%;
+            height: 55px;
+            margin-top: 3em;
+            margin-left: 6.5%;
+        }
+        .input-pass{
+            width: 80%;
+            height: 55px;
+            margin-top: 3em;
+            margin-left: 6.5%;
+        }
+        .input-sub{
+            width: 30%;
+            height: 3.5em;
+            margin-top: 3em;
+            margin-left: 35%;
+        }
+        .input-sub:hover{
+            width: 29.5%;
+            margin-left:35.5% ;
+        }
+}
+
+
